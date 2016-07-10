@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+    version="2.2">
+<navigation-rule>
+		<display-name>GetReports</display-name>
+		<from-view-id>/Select.jsp</from-view-id>
+		<navigation-case><from-outcome>SUCCESS</from-outcome>
+			<to-view-id>/GetReports.jsp</to-view-id>
+		</navigation-case>
+		<navigation-case>
+		<from-outcome>FAIL</from-outcome>
+			<to-view-id>/Error.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Login</display-name>
+		<from-view-id>/Login.jsp</from-view-id>
+		<navigation-case><from-outcome>SUCCESS</from-outcome>
+			<to-view-id>/index1.html</to-view-id>
+		</navigation-case>
+		<navigation-case>
+		<from-outcome>FAIL</from-outcome>
+			<to-view-id>/Login.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Discriptivestats</display-name>
+		<from-view-id>/DiscriptiveStats.jsp</from-view-id>
+		<navigation-case><from-outcome>SUCCESS</from-outcome>
+			<to-view-id>/DiscriptiveStats.jsp</to-view-id>
+		</navigation-case>
+		<navigation-case>
+		<from-outcome>FAIL</from-outcome>
+			<to-view-id>/DiscriptiveStats.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Logout</display-name>
+		<from-view-id>/Logout.jsp</from-view-id>
+		<navigation-case><from-outcome>SUCCESS</from-outcome>
+			<to-view-id>/Login.jsp</to-view-id>
+		</navigation-case>
+		<navigation-case>
+		<from-outcome>FAIL</from-outcome>
+			<to-view-id>/Logout.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+</faces-config>
