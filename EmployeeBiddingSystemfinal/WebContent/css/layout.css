@@ -1,0 +1,207 @@
+.clear{
+	clear: both;
+}
+input[type="submit"],button{
+	cursor: pointer;
+	width: 70px;
+margin-top: 10;
+margin-left: 45;
+}
+
+input[value="get supervisor"],button{
+	cursor: pointer;
+	width: 90px;
+margin-top: 10;
+margin-left: 45;
+}
+.container{
+	margin: 0 auto;
+	width: 1024px;
+}
+.logo{
+	text-align: center;
+}
+.seguin_logo{
+    float: left;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+}
+.notification1{
+    margin-left: 180px;
+}
+.notification2 {
+    float: right;
+}
+.notification div{
+    float: left;
+	border: 1px solid;
+}
+.product_container{
+    margin: 50px 2px;
+}
+.product {
+    width: 340px;
+    float: left;
+	margin: 20px 0px;
+}
+.left_container {
+    width: 60%;
+    float: left;
+}
+.right_container {
+    width: 40%;
+    float: left;
+}
+.item_img img {
+    width: 200px;
+}
+.item_img2 img {
+width: 200px;
+height: 104px;
+
+}
+.item_amount{
+	text-align: center;
+}
+.item_amount input {
+    width: 50px;
+}
+.notification div {
+    float: left;
+    border: 1px solid;
+    width: 110px;
+    height: 32px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+
+}
+.notification .multiline{
+    line-height: 16px;
+}
+.notification2 div {
+	width: 80px;
+
+}
+.submit{
+	float:right;
+}
+.submit input{
+	padding: 10px 16px;
+    background-color: lightblue;
+    border-radius: 1px;
+    border-color: #000;
+}
+.notice {
+text-align: right;
+}
+.print{
+	float: left;
+	width: 100px;
+    border: 1px solid;
+    border-radius: 6px;
+	text-align: center;
+}
+.print p {
+	background-color: grey;
+	border-bottom: 1px solid;
+	margin: 0px;
+    padding: 10px;
+}
+.print img{
+	width: 20px;
+	margin: 5px 0px;
+}
+.login {
+margin-left: 450px;
+margin-top: 50px;
+width: 254px;
+}
+.banner1_container
+{
+background-color: grey;
+border-radius: 5px 5px 5px 5px;
+padding: 12px;
+
+}
+.title_L
+{
+font-size:15px;
+font-weight:bold;
+width: 55px;
+}
+.title_R
+{
+font-size:15px;
+font-weight:bold;
+width: 55px;
+Float: Right;
+margin-top: -19px;
+}
+.title_R2
+{
+font-size:15px;
+font-weight:bold;
+width: 55px;
+Float: Right;
+margin-top: -8px;
+margin-right: 85px;
+}
+.title_R3
+{
+font-size:15px;
+width: 55px;
+Float: Right;
+margin-top: -8px;
+margin-right: -144px;
+}
+.Bid_per_item
+{float: right;
+width: 60px;
+}
+.R_container
+{float: left;
+margin-left: -400px;
+}
+
+.banner2_container
+{
+background-color: grey;
+border-radius: 5px 5px 5px 5px;
+padding: 12px;
+}
+.Back_To_Catalogue {
+background-color: #cccccc;
+width: 132px;
+height: 25px;
+text-align: center;
+margin-top: 10px;
+border-radius: 5px 5px 5px 5px;
+}
+.Back_To_Catalogue a
+{
+text-decoration:none;
+color:#000000;
+display:block;
+}
+.input-rounded-button {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding:0 3px 0 3px;
+    display:inline-block;
+    text-decoration:none;
+    background:#ccc;
+    cursor:pointer;
+    font:16px sans-serif;
+    width: inherit;
+}
+
+.input-rounded-button:hover { 
+    text-decoration:none;  
+    cursor:pointer;
+    border:1px solid #FF2B06;
+}
